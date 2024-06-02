@@ -1,8 +1,3 @@
-greeting = 'Salutations'
+import math as m
 
-def well_howdy(who):
-    greeting = 'Howdy'
-    print(f'{greeting}, {who}')
-
-well_howdy('Angie')
-print(greeting)
+print(m.sqrt(37))
